@@ -1,4 +1,4 @@
-## Hosted Link-- [Demo](https://react-education-planner-bay.vercel.app/)
+## Hosted Link-- [Demo](https://education-planner-react-beige.vercel.app/)
 
 # Getting Started with Create React App
 
