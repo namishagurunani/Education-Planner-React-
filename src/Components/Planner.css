@@ -1,0 +1,109 @@
+
+    h2{
+    text-decoration-line:underline;
+    color: rgb(186, 241, 138);
+    padding: 1rem 5rem;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 10;
+    text-align: center;
+    font-size: 3rem;
+}
+.App{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+}
+.inputStore{
+    width: 70%;
+    margin-top: 15vh;
+    display: flex;
+   justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 15px;
+}
+.inputStore input:first-child{
+    width: 400px;
+    border: 1px dashed rgb(0, 0, 0);
+}
+.inputStore input{
+    height: 50px;
+    border: none;
+    outline: none;
+    padding: 0 1rem;
+    font-size: 16px;
+    border-bottom: 2px solid #2E4374;
+    border-top-right-radius: 5px;
+    border-top-left-radius: 5px;
+    border-radius: 5px;
+    border: 1px dashed rgb(0, 0, 0);
+}
+.inputStore input::placeholder{
+    font-size: 16px;
+}
+.inputStore input:focus{
+    border: 2px solid #5b7dca;
+}
+.inputStore button{
+  appearance: button;
+  background-color: #39767e;
+  border-radius: 6px;
+  box-shadow: rgba(50, 50, 93, .1) 0 0 0 1px inset,rgba(50, 50, 93, .1) 0 2px 5px 0,rgba(0, 0, 0, .07) 0 1px 1px 0;
+  box-sizing: border-box;
+  cursor: pointer;
+  height: 50px;
+  padding: 0 12px;
+  position: relative;
+  text-align: center;
+  transform: translateZ(0);
+  transition: all .2s,box-shadow .08s ease-in;
+  font-weight: 700;
+  color: white;
+}
+
+.inputStore button:focus {
+  box-shadow: rgba(50, 50, 93, .1) 0 0 0 1px inset, rgba(50, 50, 93, .2) 0 6px 15px 0, rgba(0, 0, 0, .1) 0 2px 2px 0, rgba(255, 210, 143, .3) 0 0 0 4px;
+}
+.subjectList{
+    width: 100%;
+    margin-top: 3rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+}
+
+.subContainer{
+    display: flex;
+   justify-content: space-between;
+    border-radius: 9px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.685);
+    font-weight: 600;
+    border: 2px dashed rgb(192, 36, 36);
+    flex-wrap: wrap;
+    gap: 15px;
+    padding: 1rem;
+    color: rgb(146, 146, 149);
+    width: 52%;
+}
+.subjectList .subContainer button{
+    padding: 0.4rem;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    width: 30px;
+    margin-right: 15px;
+    border-radius: 4px;
+    box-shadow: 0 0 8px rgba(0, 0, 0, 0.685);
+}
+.subjectList #content{
+    font-weight: 600;
+    font-size: 32px;
+    text-shadow: 0 0 10px rgba(0, 0, 0, 0.815);
+    margin-top: 9%;
+}
